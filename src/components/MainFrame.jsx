@@ -29,11 +29,8 @@ const MainFrame = (props) => {
     return ( 
         <div className="MainFrame">
         
-        
-     <a class="waves-effect waves-light btn orange accent-1  grey-text text-darken-4"> <Link to="/journal"> Journal </Link> </a>
-     <div className="logo">
-       <img src={logo} />
-       </div>
+       
+       <Link class="waves-effect waves-light btn orange accent-1  grey-text text-darken-4" to="/journal">Journal</Link>
     <div class="row">
     <div class="col s12 m6">
       <div class="card c blue darken-2">

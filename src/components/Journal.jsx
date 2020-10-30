@@ -54,8 +54,8 @@ const _handleChangeQuestion1 = (question) => {
  }
 
     return(
-        <>
-        <a class="waves-effect waves-light btn orange accent-1 grey-text text-darken-4"> <Link to="/"> Home </Link></a>
+        <div className="JournalPage">
+        <Link class="waves-effect waves-light btn orange accent-1 grey-text text-darken-4"to="/"> Home </Link>
        <div class="row">
     <div class="col s12 m6">
       <div class="card blue darken-4">  
@@ -138,7 +138,7 @@ const _handleChangeQuestion1 = (question) => {
   </div>
 
 
-        </>
+        </div>
     )
 }
 
