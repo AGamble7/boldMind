@@ -31,11 +31,15 @@ const MainFrame = (props) => {
         
        
        <Link class="waves-effect waves-light btn orange accent-1  grey-text text-darken-4" to="/journal">Journal</Link>
-    <div class="row">
+    <div class="rowFront">
     <div class="col s12 m6">
       <div class="card c blue darken-2">
         <div class="card-content white-text">
         <form>
+            <p>
+                Welcome to BoldMind! On this app you are able to express yourself and become re-grounded. Here you are able to get on the button below to start your journey to be re-grounded! 
+                Express how you feel in the input box below..
+            </p>
         <input type="text" value={question} onChange={(e) => _handleQuestion(e.target.value)}/>
         </form>
         <a class="waves-effect waves btn-flat" onClick={(e) => _handleSubmit(e)}> Click to get re-grounded</a> 
