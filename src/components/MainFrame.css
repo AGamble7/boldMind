@@ -24,9 +24,27 @@
 
   .rowFront {
   justify-content: center;
+  margin: auto;
   }
 
   .p {
     flex-wrap: wrap;
 
+  }
+
+  .para1 {
+    margin: .5px;
+    padding: 10px;
+    font-size: 20px;
+    color: #f5f5f5;
+    font-family: fantasy;
+  }
+
+  .para2 {
+    margin: .5px;
+    padding: 10px;
+    font-size: 20px;
+    box-shadow: #f5f5f5;
+    color: #f5f5f5;
+    font-family: monospace;
   }

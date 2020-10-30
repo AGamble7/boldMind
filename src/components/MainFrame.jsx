@@ -36,8 +36,8 @@ const MainFrame = (props) => {
       <div class="card c blue darken-2">
         <div class="card-content white-text">
         <form>
-            <p>
-                Welcome to BoldMind! On this app you are able to express yourself and become re-grounded. Here you are able to get on the button below to start your journey to be re-grounded! 
+            <p className="para1">
+                Welcome to BoldMind! On this app you are able to express yourself and become re-grounded. Here you are able to click on the button below to start your journey to be re-grounded! ⛰
                 Express how you feel in the input box below..
             </p>
         <input type="text" value={question} onChange={(e) => _handleQuestion(e.target.value)}/>
@@ -45,6 +45,11 @@ const MainFrame = (props) => {
         <a class="waves-effect waves btn-flat" onClick={(e) => _handleSubmit(e)}> Click to get re-grounded</a> 
       </div>
     </div>
+  </div>
+  <div className="About">
+  <p className="para2">
+      Hi! My name is Aliyah Gamble and I created this site to help bring awreness to imposter syndrome and how to take a pause either at the beginning, middle, or end of your day to relfect and become regrounded. Browse the Journal Page to start your journey! ✨
+  </p>
   </div>
   <p>
     {!!answer ? (<p>{answer}</p>) : null}
