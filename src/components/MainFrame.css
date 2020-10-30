@@ -1,0 +1,32 @@
+.MainFrame {
+    background: #ffbd59 url(../images/background.png) no-repeat center center; 
+    text-align: center;
+    background-size: contain;
+    min-height: 100vh;
+    min-width: 100vh;
+    width: 100%;
+  }
+  .logo {
+   height: 100px;
+   width: 100px;
+   display: block;
+   margin: auto;
+}
+.logo img {
+  width: 100%;
+  height: auto;
+}
+
+
+  .card {
+    justify-content: center;
+  }
+
+  .row {
+  justify-content: center;
+  }
+
+  .p {
+    flex-wrap: wrap;
+
+  }
